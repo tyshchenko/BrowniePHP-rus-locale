@@ -1,0 +1,614 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2012-06-06 16:09+0200\n"
+"PO-Revision-Date: 2012-06-06 11:11-0300\n"
+"Last-Translator: Mauro Zadunaisky <maurozadu@gmail.com>\n"
+"Language-Team: Plus Global <mauro@plusglobal.com> <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Config\bootstrap.php:49
+msgid "Please provide a valid username and password"
+msgstr "Введите правильные имя и пароль"
+
+#: Controller\BrownieController.php:35
+msgid "Username or password is incorrect"
+msgstr "Имя и пароль не совпадают"
+
+#: Controller\ContentsController.php:190
+msgid "The %s has been saved [male]"
+msgstr "%s сохранен"
+
+#: Controller\ContentsController.php:191
+msgid "The %s has been saved [female]"
+msgstr "%s сохранена"
+
+#: Controller\ContentsController.php:199
+msgid "The %s could not be saved. Please, check the error messages.[male]"
+msgstr "%s не сохранен. Исправьте ошибки."
+
+#: Controller\ContentsController.php:200
+msgid "The %s could not be saved. Please, check the error messages.[female]"
+msgstr "%s не сохранена. Исправьте ошибки."
+
+#: Controller\ContentsController.php:260
+msgid "Successful delete"
+msgstr "Успешно удалено"
+
+#: Controller\ContentsController.php:262
+msgid "Unable to delete"
+msgstr "Невозможно удалить"
+
+#: Controller\ContentsController.php:304
+msgid "No %s selected to delete"
+msgstr "Нет %s для удаления"
+
+#: Controller\ContentsController.php:317
+msgid "%d %s deleted."
+msgstr "%d %s удалено"
+
+#: Controller\ContentsController.php:320
+msgid "%d %s no deleted."
+msgstr "%d %s не удалено"
+
+#: Controller\ContentsController.php:357
+msgid "%s files saved"
+msgstr "%s сохранено"
+
+#: Controller\ContentsController.php:358
+msgid "%s images saved"
+msgstr "%s картинок сохранено"
+
+#: Controller\ContentsController.php:362
+msgid "No files saved"
+msgstr "Не сохранено"
+
+#: Controller\ContentsController.php:363
+msgid "No images saved"
+msgstr "Не сохранено"
+
+#: Controller\ContentsController.php:392
+msgid "The file was deleted"
+msgstr "Файл удален"
+
+#: Controller\ContentsController.php:393
+msgid "The image was deleted"
+msgstr "Картинка удалена"
+
+#: Controller\ContentsController.php:397
+msgid "The file could not be deleted"
+msgstr "Файл не может быть удален"
+
+#: Controller\ContentsController.php:398
+msgid "The image could not be deleted"
+msgstr "Картинка не может быть удалена"
+
+#: Controller\ContentsController.php:426
+msgid "The import could not be done. Please try again"
+msgstr "Импорт не получился, пробуйте позже"
+
+#: Controller\ContentsController.php:440
+msgid "Warning: %s::brwImport() must be defined"
+msgstr "Внимание: %s::brwImport() должен быть"
+
+#: Controller\ContentsController.php:484
+msgid "Successfully reordered"
+msgstr "Успешно сортировано"
+
+#: Controller\ContentsController.php:486
+msgid "Failed to reorder"
+msgstr "Сортировка не удалась"
+
+#: Controller\ContentsController.php:589
+#: View\Elements\form_filter.ctp:62
+msgid "Yes"
+msgstr "Да"
+
+#: Controller\ContentsController.php:589
+#: View\Elements\form_filter.ctp:62
+msgid "No"
+msgstr "Нет"
+
+#: Controller\ContentsController.php:621
+msgid "Date not set"
+msgstr "Дата не указана"
+
+#: Controller\ContentsController.php:630
+msgid "Datetime not set"
+msgstr "Дата и время не указаны"
+
+#: Controller\ContentsController.php:653
+msgid "After save"
+msgstr "Перед сохранением"
+
+#: Controller\ContentsController.php:655
+msgid "Back to where I was"
+msgstr "Вернутся назад"
+
+#: Controller\ContentsController.php:657
+msgid "View saved %s [male]"
+msgstr "Сохранен %s"
+
+#: Controller\ContentsController.php:658
+msgid "View saved %s [female]"
+msgstr "Сохранена %s"
+
+#: Controller\ContentsController.php:661
+msgid "Add another %s [male]"
+msgstr "Добавить еще %s"
+
+#: Controller\ContentsController.php:662
+msgid "Add another %s [female]"
+msgstr "Добавить еще %s"
+
+#: Controller\ContentsController.php:665
+msgid "Go to to index of all %s [male]"
+msgstr "Перейти к списку %s"
+
+#: Controller\ContentsController.php:666
+msgid "Go to to index of all %s [female]"
+msgstr "Перейти к списку %s"
+
+#: Controller\ContentsController.php:669
+msgid "Continue editing this %s [male]"
+msgstr "Продолжить редактировать %s"
+
+#: Controller\ContentsController.php:670
+msgid "Continue editing this %s [female]"
+msgstr "Продолжить редактировать %s"
+
+#: Controller\ContentsController.php:672
+msgid "Go home"
+msgstr "Домой"
+
+#: Controller\ContentsController.php:685
+msgid "Go to the %s [male]"
+msgstr "Перейти к %s"
+
+#: Controller\ContentsController.php:686
+msgid "Go to the %s [female]"
+msgstr "Перейти к %s"
+
+#: Controller\Component\BrwPanelComponent.php:73
+msgid "Menu"
+msgstr "Меню"
+
+#: Model\Content.php:101
+msgid "This field is required"
+msgstr "Это поле обязательно"
+
+#: Model\Content.php:112
+msgid "Please supply  a valid number"
+msgstr "Введите правильный номер"
+
+#: Model\Content.php:121
+msgid "Please supply a valid email address"
+msgstr "Введите корректный емейл"
+
+#: Model\Content.php:128
+msgid "Incorrect value"
+msgstr "Не правильное значение"
+
+#: Model\Content.php:137
+msgid "This value must be unique and it's already in use by another %s [male]"
+msgstr "Значение должно быть уникальным, оно уже используется %s"
+
+#: Model\Content.php:138
+msgid "This value must be unique and it's already in use by another %s [female]"
+msgstr "Значение должно быть уникальным, оно уже используется %s"
+
+#: Model\Content.php:354
+#: View\Contents\view.ctp:102
+msgid "Add"
+msgstr "Добавить"
+
+#: Model\Content.php:355
+#: View\Elements\file.ctp:10
+msgid "View"
+msgstr "Просмотр"
+
+#: Model\Content.php:356
+#: View\Elements\file.ctp:15
+#: View\Elements\image.ctp:10
+msgid "Edit"
+msgstr "Изменить"
+
+#: Model\Content.php:357
+#: View\Elements\file.ctp:20
+#: View\Elements\image.ctp:14
+msgid "Delete"
+msgstr "Удалить"
+
+#: Model\Content.php:358
+msgid "List all"
+msgstr "Список"
+
+#: Model\Content.php:378
+msgid "Are you sure you want to delete this %s?[male]"
+msgstr "Вы уверены что надо удалить это %s?"
+
+#: Model\Content.php:379
+msgid "Are you sure you want to delete this %s?[female]"
+msgstr "Вы уверены что надо удалить это %s?"
+
+#: Model\Behavior\BrwPanelBehavior.php:646
+msgid "Leave blank for no change"
+msgstr "Оставьте пустым чтоб не менять"
+
+#: Model\Behavior\BrwPanelBehavior.php:655;656
+#: View\Layouts\brownie_default.ctp:50
+msgid "User"
+msgstr "Пользователь"
+
+#: Model\Behavior\BrwPanelBehavior.php:657
+#: View\Layouts\brownie_default.ctp:46
+msgid "Users"
+msgstr "Пользователи"
+
+#: Model\Behavior\BrwPanelBehavior.php:747
+msgid "type = owned is valid only for models that belongsTo authModel (model: %s)"
+msgstr ""
+
+#: Model\Behavior\BrwUploadBehavior.php:22
+msgid "File too heavy. Maximum allowed: %s KB (%s MB)"
+msgstr "Файл слишком большой. Можно: %s KB (%s MB)"
+
+#: Model\Behavior\BrwUploadBehavior.php:30
+msgid "Invalid image. Only jpg, gif and png are allowed."
+msgstr "Неправильная картинка. Только jpg, gif и png"
+
+#: Model\Behavior\BrwUserBehavior.php:17
+msgid "Email already registered"
+msgstr "Email уже зарегистрирован"
+
+#: Model\Behavior\BrwUserBehavior.php:21
+msgid "Email not valid"
+msgstr "Email некорректный"
+
+#: Model\Behavior\BrwUserBehavior.php:27
+msgid "Email cannot be empty"
+msgstr "Email не может быть пустым"
+
+#: Model\Behavior\BrwUserBehavior.php:34;41
+msgid "Password cannot be empty"
+msgstr "Пароль не может быть пустым"
+
+#: Model\Behavior\BrwUserBehavior.php:45
+msgid "Passwords do not match"
+msgstr "Пароли не совпадают"
+
+#: View\Brownie\login.ctp:3;15
+msgid "Login"
+msgstr "Логин"
+
+#: View\Brownie\login.ctp:6
+msgid "Welcome"
+msgstr "Админка"
+
+#: View\Brownie\login.ctp:7
+msgid "Please provide your user and password."
+msgstr "Введите логин и пароль"
+
+#: View\Brownie\login.ctp:13
+msgid "Username"
+msgstr "Логин"
+
+#: View\Brownie\login.ctp:14
+msgid "Password"
+msgstr "Пароль"
+
+#: View\Brownie\translations.ctp:1
+#: View\Elements\translations.ctp:2
+#: View\Layouts\brownie_default.ctp:19
+msgid "Done"
+msgstr "Готово"
+
+#: View\Contents\add_images.ctp:11
+#: View\Contents\edit_image.ctp:6
+msgid "Add image"
+msgstr "Добавить картинку"
+
+#: View\Contents\add_images.ctp:32
+#: View\Contents\edit_image.ctp:19
+#: View\Contents\edit_upload.ctp:29
+msgid "Image"
+msgstr "Картинка"
+
+#: View\Contents\add_images.ctp:37
+#: View\Contents\edit_image.ctp:28
+msgid "Image description"
+msgstr "Описание к картинке"
+
+#: View\Contents\add_images.ctp:50
+#: View\Contents\edit_file.ctp:42
+#: View\Contents\edit_image.ctp:39
+#: View\Contents\import.ctp:24
+msgid "Submit"
+msgstr "Отправить"
+
+#: View\Contents\edit.ctp:17
+#: View\Elements\index.ctp:12
+msgid "Add :name_singular"
+msgstr "Добавить :name_singular"
+
+#: View\Contents\edit.ctp:17
+msgid "Edit :name_singular"
+msgstr "Изменить :name_singular"
+
+#: View\Contents\edit.ctp:48
+msgid "(No parent)"
+msgstr "(Нет)"
+
+#: View\Contents\edit.ctp:130
+#: View\Contents\edit_upload.ctp:38
+msgid "Description"
+msgstr "Описание"
+
+#: View\Contents\edit.ctp:145
+msgid "Add Image"
+msgstr "Добавить картинку"
+
+#: View\Contents\edit.ctp:145
+msgid "Add File"
+msgstr "Добавить файл"
+
+#: View\Contents\edit.ctp:163
+#: View\Contents\edit_upload.ctp:43
+msgid "Save"
+msgstr "Сохранить"
+
+#: View\Contents\edit_file.ctp:6
+msgid "Add file"
+msgstr "Добавить файл"
+
+#: View\Contents\edit_file.ctp:19
+#: View\Contents\edit_upload.ctp:29
+msgid "File"
+msgstr "Файл"
+
+#: View\Contents\edit_file.ctp:23
+#: View\Contents\edit_upload.ctp:33
+msgid "You can leave the file field blank if you don't want to change the file"
+msgstr "Вы можете оставить это поле пустым если вы не хотите изменить файл"
+
+#: View\Contents\edit_file.ctp:31
+msgid "File description"
+msgstr "Описание к файлу"
+
+#: View\Contents\edit_image.ctp:21
+msgid "You can leave the Image field blank if you don't want to change the image"
+msgstr "Вы можете оставить это поле пустым если вы не хотите изменить картинку"
+
+#: View\Contents\import.ctp:9
+msgid "Import :name_plural"
+msgstr "Импорт :name_plural"
+
+#: View\Contents\view.ctp:11;13
+msgid "Previous"
+msgstr "Предыдущее"
+
+#: View\Contents\view.ctp:19;21
+msgid "Next"
+msgstr "Следующее"
+
+#: View\Contents\view.ctp:38;38
+msgid "Back"
+msgstr "Назад"
+
+#: View\Elements\file.ctp:13
+msgid "Download"
+msgstr "Скачать"
+
+#: View\Elements\file.ctp:23
+msgid "Are you sure you want to delete this file?"
+msgstr "Точно удалить это?"
+
+#: View\Elements\form_filter.ctp:3
+msgid "The following listing is filtered."
+msgstr "Листинг отфильтрован"
+
+#: View\Elements\form_filter.ctp:4
+msgid "View all"
+msgstr "Смотреть все"
+
+#: View\Elements\form_filter.ctp:49
+msgid "from"
+msgstr "от"
+
+#: View\Elements\form_filter.ctp:52
+msgid "to"
+msgstr "до"
+
+#: View\Elements\form_filter.ctp:89
+msgid "Filter"
+msgstr "Фильтр"
+
+#: View\Elements\image.ctp:17
+msgid "Are you sure you want to delete this image?"
+msgstr "Точно удалить это?"
+
+#: View\Elements\index.ctp:21
+msgid "Import"
+msgstr "Импорт"
+
+#: View\Elements\index.ctp:27
+msgid "Export"
+msgstr "Экспорт"
+
+#: View\Elements\index.ctp:66
+msgid "Delete selected"
+msgstr "Удалить выделенные"
+
+#: View\Elements\index.ctp:81
+msgid "Select/Unselect all"
+msgstr "Выделить/убрать выделение всем"
+
+#: View\Elements\index.ctp:107
+msgid "Sort"
+msgstr "Сортировка"
+
+#: View\Elements\index.ctp:110
+msgid "Actions"
+msgstr "Действия"
+
+#: View\Elements\index.ctp:152;154
+msgid "Sort up"
+msgstr "Сортировать"
+
+#: View\Elements\index.ctp:156;158
+msgid "Sort down"
+msgstr "Сортировать"
+
+#: View\Elements\index.ctp:180
+msgid "There are no %s"
+msgstr ""
+
+#: View\Elements\pagination.ctp:8
+msgid "previous"
+msgstr "предыдущее"
+
+#: View\Elements\pagination.ctp:12
+msgid "next"
+msgstr "следующее"
+
+#: View\Elements\pagination.ctp:20
+msgid "Page %page% of %pages%, showing %current% :name_plural out of %count% total, starting on record %start%, ending on %end%"
+msgstr "Страница %page% из %pages%, показано %current% записи из %count%"
+
+#: View\Elements\pagination.ctp:54
+msgid "%s per page"
+msgstr "%s на страницу"
+
+#: View\Elements\translations.ctp:3
+msgid "This field cannot be left blank"
+msgstr "Поле не может быть пустым"
+
+#: View\Elements\translations.ctp:6
+msgid "January"
+msgstr "Январь"
+
+#: View\Elements\translations.ctp:7
+msgid "February"
+msgstr "Февраль"
+
+#: View\Elements\translations.ctp:8
+msgid "March"
+msgstr "Март"
+
+#: View\Elements\translations.ctp:9
+msgid "April"
+msgstr "Апрель"
+
+#: View\Elements\translations.ctp:10
+msgid "May"
+msgstr "Май"
+
+#: View\Elements\translations.ctp:11
+msgid "June"
+msgstr "Июнь"
+
+#: View\Elements\translations.ctp:12
+msgid "July"
+msgstr "Июль"
+
+#: View\Elements\translations.ctp:13
+msgid "August"
+msgstr "Август"
+
+#: View\Elements\translations.ctp:14
+msgid "September"
+msgstr "Сентябрь"
+
+#: View\Elements\translations.ctp:15
+msgid "October"
+msgstr "Октябрь"
+
+#: View\Elements\translations.ctp:16
+msgid "November"
+msgstr "Ноябрь"
+
+#: View\Elements\translations.ctp:17
+msgid "December"
+msgstr "Декабрь"
+
+#: View\Elements\translations.ctp:20
+msgid "Brw User"
+msgstr "Пользователь"
+
+#: View\Elements\translations.ctp:21
+msgid "Add User"
+msgstr "Добавить пользователя"
+
+#: View\Helper\i18nHelper.php:8
+msgid "Catalá"
+msgstr ""
+
+#: View\Helper\i18nHelper.php:9
+msgid "Portugues"
+msgstr ""
+
+#: View\Helper\i18nHelper.php:10
+msgid "German"
+msgstr ""
+
+#: View\Helper\i18nHelper.php:11
+msgid "English"
+msgstr "Английский"
+
+#: View\Helper\i18nHelper.php:12
+msgid "French"
+msgstr ""
+
+#: View\Helper\i18nHelper.php:13
+msgid "Italian"
+msgstr ""
+
+#: View\Helper\i18nHelper.php:14
+msgid "Dutch"
+msgstr ""
+
+#: View\Helper\i18nHelper.php:15
+msgid "Spanish"
+msgstr ""
+
+#: View\Layouts\brownie_default.ctp:16
+msgid "No records checked for deletion"
+msgstr "Нет записей для удаления"
+
+#: View\Layouts\brownie_default.ctp:17
+msgid "Select"
+msgstr "Выделить"
+
+#: View\Layouts\brownie_default.ctp:18
+msgid "Unselect"
+msgstr "Снять выделение"
+
+#: View\Layouts\brownie_default.ctp:20
+msgid "Show advanced filters"
+msgstr "Показать другие фильтры"
+
+#: View\Layouts\brownie_default.ctp:21
+msgid "Hide advanced filters"
+msgstr "Скрыть другие фильтры"
+
+#: View\Layouts\brownie_default.ctp:25
+msgid "Admin panel"
+msgstr "Админка"
+
+#: View\Layouts\brownie_default.ctp:40
+msgid "User: %s"
+msgstr "Пользователь: %s"
+
+#: View\Layouts\brownie_default.ctp:42
+msgid "Home"
+msgstr "Домой"
+
+#: View\Layouts\brownie_default.ctp:54
+msgid "Logout"
+msgstr "Выйти"
+
